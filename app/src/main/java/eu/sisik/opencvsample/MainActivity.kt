@@ -7,7 +7,7 @@ import android.graphics.BitmapFactory
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.activity_main.ivPhoto
 
 class MainActivity : AppCompatActivity() {
 
@@ -30,14 +30,14 @@ class MainActivity : AppCompatActivity() {
         var dest = cacheDir.absolutePath + "/canny.JPG"
 
         // Pass the bitmap to native C++ code and perform canny edge detection
-        canny(bitmap, dest)
+        kanny(bitmap, dest)
 
 
         // Show the processed image
         ivPhoto.setImageBitmap(BitmapFactory.decodeFile(dest))
     }
 
-    external fun canny(src: Bitmap?, destinationPath: String): Void
+    external fun kanny(src: Bitmap?, destinationPath: String): Void
 
     companion object {
 

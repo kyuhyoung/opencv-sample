@@ -8,7 +8,8 @@ using namespace cv;
 
 extern "C" {
 JNIEXPORT void JNICALL
-Java_eu_sisik_opencvsample_MainActivity_canny(
+//Java_eu_sisik_opencvsample_MainActivity_kanny(
+Java_eu_sisik_opencvsample_MainActivity_kanny(
         JNIEnv *env,
         jobject /* this */,
         jobject bitmap,

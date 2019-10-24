@@ -1,8 +1,0 @@
-Executable : C:\Users\kevin\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\cmake.exe
-arguments : 
---build
-D:\work\etc\android\opencv-sample\app\.cxx\cmake\debug\armeabi-v7a
---target
-native-lib
-jvmArgs : 
-
