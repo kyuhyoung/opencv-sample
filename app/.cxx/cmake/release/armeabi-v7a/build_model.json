@@ -45,8 +45,7 @@
     "gradleBuildOutputFolder": "D:\\work\\etc\\android\\opencv-sample\\app\\.cxx\\cxx\\release",
     "isDebuggableEnabled": false,
     "validAbiList": [
-      "ARMEABI_V7A",
-      "X86"
+      "ARMEABI_V7A"
     ],
     "buildTargetSet": []
   },

@@ -13,14 +13,6 @@
   },
   {
     "level": "INFO",
-    "message": "- a dependent build file changed"
-  },
-  {
-    "level": "INFO",
-    "message": "  - D:\\work\\etc\\android\\opencv-sample\\app\\CMakeLists.txt"
-  },
-  {
-    "level": "INFO",
     "message": "removing stale contents from \u0027D:\\work\\etc\\android\\opencv-sample\\app\\.cxx\\cmake\\release\\x86\u0027"
   },
   {
