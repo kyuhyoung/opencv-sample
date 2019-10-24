@@ -1,0 +1,18 @@
+Executable : C:\Users\kevin\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\cmake.exe
+arguments : 
+-HD:\work\etc\android\opencv-sample\app
+-BD:\work\etc\android\opencv-sample\app\.cxx\cmake\release\x86
+-DANDROID_ABI=x86
+-DANDROID_PLATFORM=android-21
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=D:\work\etc\android\opencv-sample\app\build\intermediates\cmake\release\obj\x86
+-DCMAKE_BUILD_TYPE=Release
+-DANDROID_NDK=C:\Users\kevin\AppData\Local\Android\Sdk\ndk-bundle
+-DCMAKE_CXX_FLAGS=-std=c++14 -fexceptions
+-DCMAKE_TOOLCHAIN_FILE=C:\Users\kevin\AppData\Local\Android\Sdk\ndk-bundle\build\cmake\android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=C:\Users\kevin\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe
+-GAndroid Gradle - Ninja
+-DANDROID_TOOLCHAIN=clang
+-DANDROID_STL=c++_shared
+-DANDROID_PLATFORM=android-21
+jvmArgs : 
+

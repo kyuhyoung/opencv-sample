@@ -19,19 +19,20 @@ android {
 
                 arguments "-DANDROID_TOOLCHAIN=clang",
                         "-DANDROID_STL=c++_shared",
+                        //"-DANDROID_STL=c++_static",
                         "-DANDROID_PLATFORM=android-21"
             }
         }
 
         ndk {
-            abiFilters 'armeabi-v7a'//, 'x86'
+//            abiFilters 'armeabi-v7a'//, 'x86'
+            abiFilters "armeabi-v7a", "x86"
         }
 
         sourceSets {
             main {
-                jniLibs.srcDirs = [
-                        System.getenv('VENDOR') + '/opencv/lib'
-                ]
+                //jniLibs.srcDirs = [ System.getenv('VENDOR') + '/opencv/lib' ]
+                jniLibs.srcDirs=['src/main/cpp/jniLibs']
             }
         }
     }

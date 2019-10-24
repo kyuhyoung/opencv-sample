@@ -1,0 +1,74 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "D:\\work\\etc\\android\\opencv-sample",
+      "sdkFolder": "C:\\Users\\kevin\\AppData\\Local\\Android\\Sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "D:\\work\\etc\\android\\opencv-sample\\app\\build\\intermediates",
+      "gradleModulePathName": ":app",
+      "moduleRootFolder": "D:\\work\\etc\\android\\opencv-sample\\app",
+      "makeFile": "D:\\work\\etc\\android\\opencv-sample\\app\\CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "D:\\work\\etc\\android\\opencv-sample\\.cxx",
+      "cxxFolder": "D:\\work\\etc\\android\\opencv-sample\\app\\.cxx",
+      "ndkFolder": "C:\\Users\\kevin\\AppData\\Local\\Android\\Sdk\\ndk-bundle",
+      "ndkVersion": "20.0.5594570",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [
+      "-DANDROID_TOOLCHAIN\u003dclang",
+      "-DANDROID_STL\u003dc++_shared",
+      "-DANDROID_PLATFORM\u003dandroid-21"
+    ],
+    "cFlagList": [],
+    "cppFlagsList": [
+      "-std\u003dc++14 -fexceptions"
+    ],
+    "variantName": "release",
+    "soFolder": "D:\\work\\etc\\android\\opencv-sample\\app\\build\\intermediates\\cmake\\release\\lib",
+    "objFolder": "D:\\work\\etc\\android\\opencv-sample\\app\\build\\intermediates\\cmake\\release\\obj",
+    "jsonFolder": "D:\\work\\etc\\android\\opencv-sample\\app\\.cxx\\cmake\\release",
+    "gradleBuildOutputFolder": "D:\\work\\etc\\android\\opencv-sample\\app\\.cxx\\cxx\\release",
+    "isDebuggableEnabled": false,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "X86"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "X86",
+  "abiPlatformVersion": 21,
+  "cxxBuildFolder": "D:\\work\\etc\\android\\opencv-sample\\app\\.cxx\\cmake\\release\\x86",
+  "jsonFile": "D:\\work\\etc\\android\\opencv-sample\\app\\.cxx\\cmake\\release\\x86\\android_gradle_build.json",
+  "gradleBuildOutputFolder": "D:\\work\\etc\\android\\opencv-sample\\app\\.cxx\\cxx\\release\\x86",
+  "objFolder": "D:\\work\\etc\\android\\opencv-sample\\app\\build\\intermediates\\cmake\\release\\obj\\x86",
+  "buildCommandFile": "D:\\work\\etc\\android\\opencv-sample\\app\\.cxx\\cmake\\release\\x86\\build_command.txt",
+  "buildOutputFile": "D:\\work\\etc\\android\\opencv-sample\\app\\.cxx\\cmake\\release\\x86\\build_output.txt",
+  "modelOutputFile": "D:\\work\\etc\\android\\opencv-sample\\app\\.cxx\\cmake\\release\\x86\\build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "D:\\work\\etc\\android\\opencv-sample\\app\\.cxx\\cxx\\release\\x86\\CMakeLists.txt",
+    "toolchainWrapperFile": "D:\\work\\etc\\android\\opencv-sample\\app\\.cxx\\cxx\\release\\x86\\android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "D:\\work\\etc\\android\\opencv-sample\\app\\.cxx\\cxx\\release\\x86\\build_generation_state.json",
+    "cacheKeyFile": "D:\\work\\etc\\android\\opencv-sample\\app\\.cxx\\cxx\\release\\x86\\compiler_cache_key.json",
+    "compilerCacheUseFile": "D:\\work\\etc\\android\\opencv-sample\\app\\.cxx\\cxx\\release\\x86\\compiler_cache_use.json",
+    "compilerCacheWriteFile": "D:\\work\\etc\\android\\opencv-sample\\app\\.cxx\\cxx\\release\\x86\\compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "D:\\work\\etc\\android\\opencv-sample\\app\\.cxx\\cxx\\release\\x86\\compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "D:\\work\\etc\\android\\opencv-sample\\app\\.cxx\\cmake\\release\\x86\\json_generation_record.json",
+  "compileCommandsJsonFile": "D:\\work\\etc\\android\\opencv-sample\\app\\.cxx\\cmake\\release\\x86\\compile_commands.json"
+}

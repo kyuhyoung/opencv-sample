@@ -33,6 +33,8 @@ Java_eu_sisik_opencvsample_MainActivity_canny(
         // Now create the mat
         Mat input(info.height, info.width, CV_8UC4, pixels);
 
+        imwrite("input.bmp", input);
+
         // Perform canny edge detection
         Mat edges;
         Canny(input, edges, 200.0, 600.0);
